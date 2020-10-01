@@ -5,7 +5,7 @@ https://arxiv.org/abs/2006.14811
 
 Training step: 
 1. train a deep infomax encoder using only normal data. we recommand this repository to train: https://github.com/rdevon/DIM
-2. place your data to data/ folder and start to train the FSAD network (Classifier) using the pretrained encoder from step-1 as the feature extractor. 
+2. place your own data into data/  folder and start to train the FSAD network (Classifier) using the pretrained encoder from step-1 as the feature extractor. 
 
 You may need to write your own dataloader. 
 
