@@ -11,11 +11,14 @@ You may need to write your own dataloader.
 
 Please consider to cite our paper. 
 
-@article{tian2020few,
+
+@inproceedings{tian2020few,
   title={Few-Shot Anomaly Detection for Polyp Frames from Colonoscopy},
   author={Tian, Yu and Maicas, Gabriel and Pu, Leonardo Zorron Cheng Tao and Singh, Rajvinder and Verjans, Johan W and Carneiro, Gustavo},
-  journal={arXiv preprint arXiv:2006.14811},
-  year={2020}
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={274--284},
+  year={2020},
+  organization={Springer}
 }
 
 
