@@ -11,7 +11,7 @@ You may need to write your own dataloader.
 
 Please consider to cite our paper. 
 
-
+```bibtex
 @inproceedings{tian2020few,
   title={Few-Shot Anomaly Detection for Polyp Frames from Colonoscopy},
   author={Tian, Yu and Maicas, Gabriel and Pu, Leonardo Zorron Cheng Tao and Singh, Rajvinder and Verjans, Johan W and Carneiro, Gustavo},
@@ -20,5 +20,5 @@ Please consider to cite our paper.
   year={2020},
   organization={Springer}
 }
-
+```
 
