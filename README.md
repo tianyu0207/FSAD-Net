@@ -10,7 +10,7 @@ This repo contains the Pytorch implementation of our paper:
 
 
 ## Training
-1. pretrain a [Deep Infomax](https://github.com/rdevon/DIM) encoder using only normal data.  
+1. Pretrain a [Deep Infomax](https://github.com/rdevon/DIM) encoder using only normal data.  
 2. Place your own data into data/  folder and start to train the FSAD network (Classifier) using the pretrained encoder as the feature extractor. 
 
 Run:
