@@ -1,16 +1,27 @@
 # FSAD-Net
-Few-Shot Anomaly Detection for Polyp Frames from Colonoscopy (MICCAI 2020)
-https://arxiv.org/abs/2006.14811
+This repo contains the Pytorch implementation of our paper: 
+> [**Few-Shot Anomaly Detection for Polyp Frames from Colonoscopy**](https://arxiv.org/abs/2006.14811)
+>
+> [Yu Tian](https://yutianyt.com/), [Gabriel Maicas](https://cs.adelaide.edu.au/~gabriel/), Leonardo Zorron Cheng Tao Pu, Rajvinder Singh, Johan W Verjans, [Gustavo Carneiro](https://cs.adelaide.edu.au/~carneiro/).
 
 
-Training step: 
-1. train a deep infomax encoder using only normal data. we recommand this repository to train: https://github.com/rdevon/DIM
-2. place your own data into data/  folder and start to train the FSAD network (Classifier) using the pretrained encoder from step-1 as the feature extractor. 
+- **Accepted at MICCAI 2020.**  
 
-You may need to write your own dataloader. 
 
-Please consider to cite our paper. 
 
+## Training
+1. pretrain a [Deep Infomax](https://github.com/rdevon/DIM) encoder using only normal data.  
+2. Place your own data into data/  folder and start to train the FSAD network (Classifier) using the pretrained encoder as the feature extractor. 
+
+Run:
+```shell
+python main.py 
+```
+
+
+## Citation
+
+If you find this repo useful for your research, please consider citing our paper:
 ```bibtex
 @inproceedings{tian2020few,
   title={Few-Shot Anomaly Detection for Polyp Frames from Colonoscopy},
@@ -21,4 +32,10 @@ Please consider to cite our paper.
   organization={Springer}
 }
 ```
+
+
+
+
+
+
 
